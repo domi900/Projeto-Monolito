@@ -1,15 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://bmsryretvdrx5"]
+[gd_scene format=3 uid="uid://bmsryretvdrx5"]
 
 [ext_resource type="Script" uid="uid://b3slv2ft4ov32" path="res://Scripts/main.gd" id="1_7q7q3"]
 
-[node name="Node3D" type="Node3D"]
+[node name="Node3D" type="Node3D" unique_id=674827364]
 script = ExtResource("1_7q7q3")
 
-[node name="inicio" type="CSGBox3D" parent="."]
-transform = Transform3D(0.9266271, 0, -0.3759817, 0, 1, 0, 0.3759817, 0, 0.9266271, -0.0003902912, 0.03278339, -0.064156294)
+[node name="inicio" type="CSGBox3D" parent="." unique_id=1431660695]
+transform = Transform3D(0.9266271, 0, -0.3759817, 0, 1, 0, 0.3759817, 0, 0.9266271, 0.0039004087, 0.03859651, -0.070118904)
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1774223748]
 transform = Transform3D(1, 0, 0, 0, 0.036033295, 0.9993506, 0, -0.9993506, 0.036033295, -0.009227395, 1.2235299, 0.0762372)
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="Camera3D" type="Camera3D" parent="." unique_id=438269080]
 transform = Transform3D(1, 0, 0, 0, 0.8971042, 0.44181904, 0, -0.44181904, 0.8971042, 0, 2.0746984, 3.8430815)
